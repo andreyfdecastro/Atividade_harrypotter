@@ -1,3 +1,7 @@
+CREATE DATABASE atividade_pratica_harry_potter;
+
+\c atividade_pratica_harry_potter;
+
 CREATE TABLE bruxos (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
